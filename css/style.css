@@ -505,6 +505,12 @@ i.fa-solid.fa-info {
     font-size: 12px;
 }
 
+@media (max-width:768px) {
+    .Infobar {
+        margin-left: 20px;
+    }
+}
+
 /* Activités */ 
 .Activities {
     display: flex;
@@ -622,6 +628,7 @@ i.fa-solid.fa-info {
         justify-content: center;
         width: 100%;
         padding:0;
+        margin-left: 30px;
     }
 
 }
